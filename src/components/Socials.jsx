@@ -6,7 +6,7 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 export default function Socials() {
   return (
     <div className="flex w-3/4 ml-auto gap-5 mr-15 mt-8">
-      <code className="text-gray-500 text-xs mt-1">/socials</code>
+      <code className="text-gray-500 text-xs mt-1 hidden md:block">/socials</code>
       <ul className='flex gap-8'>
         <li className='group'>
           <a href="https://www.instagram.com/arasazizi__/" className='flex gap-1 text-gray-500 text-sm hover:text-black duration-300'>
