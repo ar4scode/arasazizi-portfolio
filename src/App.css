@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.icons {
+  @apply text-gray-500 text-sm duration-300 hover:px-3
+}
