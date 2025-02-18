@@ -5,7 +5,7 @@ import { faMoon } from '@fortawesome/free-solid-svg-icons';
 
 export default function Navbar() {
   return (
-    <ul className="flex fixed bottom-3 left-1/2 transform -translate-x-1/2 bg-white border border-gray-300 rounded-xl py-3 shadow-xl px-5 gap-4">
+    <ul className="fixed flex bottom-3 left-1/2 transform -translate-x-1/2 bg-white border border-gray-200 rounded-xl py-3 shadow-xl px-5 gap-4 backdrop-blur-md :">
       {[
         { icon: faHouse, link: "#root", label: "Home" },
         { icon: faInstagram, link: "https://www.instagram.com/arasazizi__/", label: "Instagram" },
