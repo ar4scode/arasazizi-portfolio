@@ -8,7 +8,7 @@ export default function Profile() {
         alt="aras azizi image"
         className="rounded-full w-33 mt-10 border-4 border-gray-400"
       />
-      <h1 className="font-bold text-3xl mt-3">Aras Azizi</h1>
+      <h1 className="font-bold text-3xl mt-3 dark:text-amber-50">Aras Azizi</h1>
     </header> 
   )
 }

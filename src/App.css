@@ -1,5 +1,6 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 .icons {
-  @apply text-gray-500 text-sm duration-300 hover:px-3
+  @apply text-gray-500 dark:text-gray-100 text-sm duration-300 hover:px-3
 }

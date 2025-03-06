@@ -4,8 +4,18 @@ import About from './components/About'
 import Socials from './components/Socials'
 import Projects from './components/Projects'
 import Navbar from './components/Navbar'
+import { useEffect, useState } from 'react'
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false)
+
+  useEffect(() => {
+    if(darkMode) {
+      document.documentElement.classList.add("dark")
+    } else {
+      document.documentElement.classList.remove("dark")
+    }
+  }, [darkMode])
 
   return (
     <>
@@ -13,7 +23,7 @@ function App() {
       <About />
       <Socials />
       <Projects />
-      <Navbar />
+      <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
     </>
   )
 }
